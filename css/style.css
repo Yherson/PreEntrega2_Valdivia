@@ -76,6 +76,13 @@ nav img {
 .hero-historia .profundidad-carusel {
     z-index: 0;
 }
+
+.hero-historia .carusel-contenido h5 {
+    font-size: 50px;
+}
+
+.hero-historia .carusel-contenido p {
+    font-size: 17px;
 /*.hero-historia {
     position: relative;
     display: inline-block;

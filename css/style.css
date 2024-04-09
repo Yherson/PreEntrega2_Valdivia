@@ -36,7 +36,8 @@ nav img {
 }
 
 .tamano-link {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .tamano-link-dropdown {
@@ -641,7 +642,7 @@ footer {
 
 /*-----footer-lugares-----*/
 .footer-top .footer-lugares h4 {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -653,6 +654,7 @@ footer {
 }
 
 .footer-top .footer-lugares ul li a {
+    font-size: 15px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -668,7 +670,6 @@ footer {
     justify-content: space-around;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     padding: 10px;
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
@@ -677,22 +678,20 @@ footer {
 
 .footer-top .footer-contacto h4 {
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
-    padding-left: 10px;
     margin: 15px 0;
 }
 
 .footer-top .footer-contacto p {
     text-align: justify;
-    font-size: 16px;
-    padding-left: 10px;
+    font-size: 15px;
     margin: 0;
 }
 
 .footer-top .footer-contacto a i {
     font-size: 25px;
-    margin: 10px;
+    margin-right: 20px;
     color: white;
 }
 
@@ -1058,6 +1057,12 @@ footer {
     .footer-top .footer-contacto h4 {
         text-align: center;
         padding: 0;
+    }
+
+    .footer-top .footer-contacto a i {
+        font-size: 25px;
+        margin: 10px;
+        color: white;
     }
 }
 

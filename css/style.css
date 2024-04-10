@@ -78,11 +78,14 @@ nav img {
 }
 
 .hero-historia .carusel-contenido h5 {
-    font-size: 50px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .hero-historia .carusel-contenido p {
     font-size: 17px;
+}
+
 /*.hero-historia {
     position: relative;
     display: inline-block;
@@ -193,7 +196,7 @@ nav img {
 }
 
 .historia-historia .historia-historia-izquierda h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: rgb(75, 169, 171);
     margin-bottom: 40px;
@@ -201,12 +204,12 @@ nav img {
 
 .historia-historia .historia-historia-izquierda h2 span {
     color: #999999;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .historia-historia .historia-historia-izquierda p {
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -252,6 +255,83 @@ nav img {
     font-size: 17px;
     font-weight: normal;
 }
+
+/*?------historias-historia-general------*/
+.historias-historia-general {
+    background-color: rgba(233, 233, 233, 0.692);
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+.historias-historia-general .subtitulo-general-historia {
+    background-image: linear-gradient(to right, rgb(75, 169, 171) 50%, rgba(0, 187, 255, 0.79) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0;
+}
+
+.historias-historia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-bottom: 100px;
+    color: #676767;
+
+}
+.contenedor-historia {
+    width: 330px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 1px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.25s ease-in;
+    border-bottom: 5px solid transparent;
+    margin: 10px;
+}
+
+.contenedor-historia:hover {
+    transform: translateY(-5px);
+    border: none;
+    border-bottom: 5px solid #4da078;
+}
+
+.contenedor-historia img {
+    width: 100%;
+}
+
+.contenido-contenedor-historia {
+    padding: 32px;
+}
+
+.texto-corto-contenido {
+    margin-bottom: 16px;
+}
+
+.subtitulo-corto-contenido {
+    margin-bottom: 16px;
+}
+
+.texto-largo-contenido {
+    margin-bottom: 30px;
+}
+
+.mas-contenido {
+    text-decoration: none;
+    outline: none;
+    color: #4da078;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mas-contenido:hover {
+    color: #57c891;
+}
+
 
 /*?-----historia-lugares-----*/
 .historia-lugares {

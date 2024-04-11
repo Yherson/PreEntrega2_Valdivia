@@ -989,7 +989,7 @@ footer {
         flex-direction: column;
         gap: 50px;
         padding: 20px;
-        margin: 10px;
+        margin: 0px;
     }
 
     .historia div {
@@ -1005,25 +1005,23 @@ footer {
         font-size: 50px;
     }
 
-    /*?----historia-historia----*/
-    .historia-historia {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        margin: 50px 0;
-    }
-
     /*?-----hero-contacto-----*/
     .hero-contacto h2 {
         font-size: 50px;
     }
 
+    /*?----historia-historia----*/
+    .historia-historia {
+        display: flex;
+        flex-direction: column;
+    }
+
     .historia-historia .historia-historia-izquierda {
-        width: 85%;
+        width: 95%;
     }
 
     .historia-historia .historia-historia-derecha {
-        width: 85%;
+        width: 95%;
         padding-top: 20px;
     }
 
@@ -1042,7 +1040,7 @@ footer {
         flex-direction: column;
         gap: 50px;
         padding: 20px;
-        margin: 10px;
+        margin: 0px;
     }
 
     .bienvenidos img {
@@ -1205,6 +1203,52 @@ footer {
     header .menu-ajustes {
         background-color: white;
         padding: 14px 5px;
+    }
+
+    /*-----historia-----*/
+    .historia {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 0;
+        margin: 0px;
+    }
+
+    .historia div {
+        width: 90%;
+    }
+
+    .historia img {
+        width: 90%;
+    }
+    /*?-----historia-historia-----*/
+    .historia-historia {
+        padding: 20px;
+    }
+    .historia-historia .historia-historia-izquierda {
+        width: 100%;
+    }
+
+    .historia-historia .historia-historia-derecha {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /*-----bievenidos-----*/
+    .bienvenidos {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 0;
+        margin: 0px;
+    }
+
+    .bienvenidos img {
+        width: 90%;
+    }
+
+    .bienvenidos div {
+        width: 90%;
     }
 
     /*?-----hero-historia-----*/

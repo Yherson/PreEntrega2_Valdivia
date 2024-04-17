@@ -37,7 +37,18 @@ nav img {
   font-size: 16px;
   font-weight: 400; }
 
-/**----INDEX----**/
+/**-----HERO-HISTORIA-BOOTSTRAP-----**/
+.hero-historia .profundidad-carusel {
+  z-index: 0; }
+
+.hero-historia .carusel-contenido h5 {
+  font-size: 30px;
+  font-weight: bold; }
+
+.hero-historia .carusel-contenido p {
+  font-size: 17px; }
+
+/**-----INDEX-----**/
 .hero {
   background-image: linear-gradient(to top, rgba(255, 255, 255, 0.216) 0%, rgba(0, 0, 0, 0.851) 100%), url(../img/hero2.jpg);
   background-position: center;
@@ -442,6 +453,110 @@ nav img {
           text-transform: uppercase;
           letter-spacing: .05em;
           margin: 2em 0 0 0; }
+
+/**-----HISTORIA-----**/
+.historia-historia {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  color: #676767;
+  margin: 30px 0; }
+  .historia-historia .historia-historia-izquierda {
+    width: 50%; }
+    .historia-historia .historia-historia-izquierda h2 {
+      font-size: 25px;
+      font-weight: bold;
+      color: #4ba9ab;
+      margin-bottom: 50px; }
+      .historia-historia .historia-historia-izquierda h2 span {
+        color: #999999;
+        font-size: 20px;
+        font-weight: 500; }
+    .historia-historia .historia-historia-izquierda p {
+      font-size: 17px;
+      text-align: justify;
+      margin-bottom: 10px; }
+  .historia-historia .historia-historia-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%; }
+    .historia-historia .historia-historia-derecha div {
+      background-color: rgba(233, 233, 233, 0.692);
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      margin: 30px; }
+      .historia-historia .historia-historia-derecha div h3 {
+        background-color: #4ba9ab;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px 5px 0 0;
+        font-weight: bold;
+        font-size: 19px; }
+      .historia-historia .historia-historia-derecha div p {
+        font-size: 17px;
+        text-align: center;
+        font-weight: bold;
+        margin: 5px;
+        padding: 0 10px 10px 10px; }
+        .historia-historia .historia-historia-derecha div p span {
+          font-size: 16px;
+          font-weight: normal; }
+
+.historias-historia-general {
+  background-color: rgba(233, 233, 233, 0.692);
+  width: 100%;
+  margin: 50px auto 0 auto; }
+  .historias-historia-general h2 {
+    background-image: linear-gradient(to right, #4ba9ab 50%, rgba(0, 187, 255, 0.79) 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0; }
+  .historias-historia-general .historias-historia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-bottom: 100px;
+    color: #676767; }
+    .historias-historia-general .historias-historia .contenedor-historia {
+      width: 330px;
+      height: auto;
+      overflow: hidden;
+      border-radius: 1px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+      transition: all 0.25s ease-in;
+      border-bottom: 5px solid transparent;
+      margin: 10px; }
+      .historias-historia-general .historias-historia .contenedor-historia:hover {
+        transform: translateY(-5px);
+        border: none;
+        border-bottom: 5px solid #4da078; }
+      .historias-historia-general .historias-historia .contenedor-historia img {
+        width: 100%; }
+      .historias-historia-general .historias-historia .contenedor-historia div {
+        padding: 32px; }
+        .historias-historia-general .historias-historia .contenedor-historia div h4 {
+          margin-bottom: 16px; }
+        .historias-historia-general .historias-historia .contenedor-historia div p {
+          margin-bottom: 30px; }
+        .historias-historia-general .historias-historia .contenedor-historia div a {
+          text-decoration: none;
+          outline: none;
+          color: #4da078;
+          text-transform: uppercase;
+          font-weight: bold; }
+          .historias-historia-general .historias-historia .contenedor-historia div a:hover {
+            color: #57c891; }
 
 /**----FOOTER----**/
 footer {

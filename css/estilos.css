@@ -11,7 +11,7 @@ body {
   font-weight: 300;
   font-style: normal; }
 
-/**-------HEADER-------*/
+/**-------HEADER-BOOTSTRAP-------**/
 header {
   position: sticky;
   top: 0;
@@ -128,26 +128,27 @@ nav img {
     width: 40%;
     border-radius: 5px; }
 
-.galerias {
+.articulos {
   background-color: rgba(233, 233, 233, 0.692); }
-  .galerias .galerias-subtitulo {
+  .articulos .articulos-subtitulo {
     text-align: center;
     margin: 50px;
     padding-top: 40px;
     color: #4ba9ab;
     font-size: 34px;
     font-weight: bold; }
-  .galerias .band {
+  .articulos .band {
     width: 92%;
     margin: 0 auto;
     padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px; }
-    .galerias .band .item-1 {
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr); }
+    .articulos .band .item-1 {
       grid-column: 1 / span 2; }
-      .galerias .band .item-1 .card {
+      .articulos .band .item-1 .card {
         background: white;
         text-decoration: none;
         color: #444;
@@ -158,38 +159,291 @@ nav img {
         position: relative;
         top: 0;
         transition: all .1s ease-in; }
-        .galerias .band .item-1 .card:hover {
+        .articulos .band .item-1 .card:hover {
           top: -2px;
           box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
-        .galerias .band .item-1 .card .thumb {
+        .articulos .band .item-1 .card .thumb {
           padding-bottom: 60%;
           background-size: cover;
           background-position: center center;
           background-image: url(../img/Imagen4.jpg); }
-        .galerias .band .item-1 .card article {
+        .articulos .band .item-1 .card article {
           padding: 20px;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: space-between; }
-          .galerias .band .item-1 .card article h1 {
-            font-size: 20px;
+          .articulos .band .item-1 .card article h1 {
+            font-size: 24px;
             margin: 0;
             color: #333; }
-          .galerias .band .item-1 .card article p {
+          .articulos .band .item-1 .card article p {
             flex: 1;
             line-height: 1.4;
             margin-top: 10px; }
-            .galerias .band .item-1 .card article p:hover {
+            .articulos .band .item-1 .card article p:hover {
               color: #4ba9ab; }
-          .galerias .band .item-1 .card article span {
+          .articulos .band .item-1 .card article span {
             font-size: 12px;
             font-weight: bold;
             color: #999;
             text-transform: uppercase;
             letter-spacing: .05em;
             margin: 2em 0 0 0; }
+    .articulos .band .item-2 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-2 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-2 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen2.jpg); }
+      .articulos .band .item-2 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-2 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-2 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-2 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-2 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
+    .articulos .band .item-3 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-3 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-3 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen3.jpg); }
+      .articulos .band .item-3 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-3 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-3 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-3 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-3 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
+    .articulos .band .item-4 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-4 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-4 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen1.jpg); }
+      .articulos .band .item-4 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-4 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-4 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-4 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-4 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
+    .articulos .band .item-5 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-5 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-5 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen5.jpg); }
+      .articulos .band .item-5 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-5 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-5 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-5 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-5 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
+    .articulos .band .item-6 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-6 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-6 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen6.jpg); }
+      .articulos .band .item-6 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-6 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-6 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-6 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-6 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
+    .articulos .band .item-7 .card {
+      background: white;
+      text-decoration: none;
+      color: #444;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      position: relative;
+      top: 0;
+      transition: all .1s ease-in; }
+      .articulos .band .item-7 .card:hover {
+        top: -2px;
+        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2); }
+      .articulos .band .item-7 .card .thumb {
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../img/Imagen7.jpg); }
+      .articulos .band .item-7 .card article {
+        padding: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .articulos .band .item-7 .card article h1 {
+          font-size: 20px;
+          margin: 0;
+          color: #333; }
+        .articulos .band .item-7 .card article p {
+          flex: 1;
+          line-height: 1.4;
+          margin-top: 10px; }
+          .articulos .band .item-7 .card article p:hover {
+            color: #4ba9ab; }
+        .articulos .band .item-7 .card article span {
+          font-size: 12px;
+          font-weight: bold;
+          color: #999;
+          text-transform: uppercase;
+          letter-spacing: .05em;
+          margin: 2em 0 0 0; }
 
+/**----FOOTER----**/
 footer {
   background-color: black;
   justify-content: space-between;

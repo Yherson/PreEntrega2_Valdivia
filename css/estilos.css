@@ -797,7 +797,21 @@ footer {
     .ubicacion div {
       width: 90%; }
     .ubicacion img {
-      width: 90%; } }
+      width: 90%; }
+  /**-----HISTORIA-----**/
+  .historia-historia {
+    display: flex;
+    flex-direction: column; }
+    .historia-historia .historia-historia-izquierda {
+      width: 95%; }
+    .historia-historia .historia-historia-derecha {
+      width: 95%;
+      padding-top: 20px; }
+      .historia-historia .historia-historia-derecha div {
+        width: 100%; }
+        .historia-historia .historia-historia-derecha div p {
+          margin: 0;
+          padding: 0 0 10px 0; } }
 
 @media screen and (max-width: 900px) {
   /**-----FOOTER-----**/
@@ -893,7 +907,15 @@ footer {
       .ubicacion div a {
         font-size: 14px; }
     .ubicacion img {
-      width: 90%; } }
+      width: 90%; }
+  /**-----HISTORIA-----**/
+  .historia-historia {
+    padding: 20px; }
+    .historia-historia .historia-historia-izquierda {
+      width: 100%; }
+    .historia-historia .historia-historia-derecha {
+      padding-top: 20px;
+      width: 100%; } }
 
 @media screen and (max-width: 500px) {
   /**-----INDEX-----**/

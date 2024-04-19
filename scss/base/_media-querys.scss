@@ -60,6 +60,25 @@
             width: 90%;
         }
     }
+    /**-----HISTORIA-----**/
+    .historia-historia{
+        display: flex;
+        flex-direction: column;
+        .historia-historia-izquierda{
+            width: 95%;
+        }
+        .historia-historia-derecha{
+            width: 95%;
+            padding-top: 20px;
+            div{
+                width: 100%;
+                p{
+                    margin: 0;
+                    padding: 0 0 10px 0;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:900px){
@@ -217,6 +236,18 @@
         }
         img{
             width: 90%;
+        }
+    }
+
+    /**-----HISTORIA-----**/
+    .historia-historia{
+        padding: 20px;
+        .historia-historia-izquierda{
+            width: 100%;
+        }
+        .historia-historia-derecha{
+            padding-top: 20px;
+            width: 100%;
         }
     }
 }

@@ -932,11 +932,6 @@ footer {
         width: 90%;
     }
 
-    /*?-----hero-historia-----*/
-    .hero-historia h2 {
-        font-size: 50px;
-    }
-
     /*?-----hero-contacto-----*/
     .hero-contacto h2 {
         font-size: 50px;
@@ -1181,11 +1176,6 @@ footer {
 
     .bienvenidos div {
         width: 90%;
-    }
-
-    /*?-----hero-historia-----*/
-    .hero-historia h2 {
-        font-size: 40px;
     }
 
     /*?-----hero-contacto-----*/

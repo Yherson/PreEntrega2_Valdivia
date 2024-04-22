@@ -616,6 +616,7 @@
 }
 
 /**-----HUAYHUASH-----**/
+/**----CARHUCOCHA----**/
 .historia-lugares{
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -627,18 +628,18 @@
     .historia-lugares-contenedor{
         width: 94%;
         h2{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: bold;
             color: rgb(75, 169, 171);
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             span{
                 color: #999999;
-                font-size: 24px;
+                font-size: 22px;
                 font-weight: 500;
             }
         }
         p{
-            font-size: 18px;
+            font-size: 17px;
             text-align: justify;
             margin-bottom: 10px;
         }
@@ -647,7 +648,7 @@
 
 .grid-galeria{
     width: 92.5%;
-    margin: 50px auto;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 400px;
@@ -692,7 +693,7 @@
 .info-historia{
     background-color: rgba(233, 233, 233, 0.692);
     width: 92.5%;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 80px auto;
     border-radius: 10px;
     h2{
         background-image: linear-gradient(to right, rgb(75, 169, 171) 50%, rgba(0, 187, 255, 0.79) 100%);
@@ -701,7 +702,7 @@
         padding: 20px;
         border-radius: 10px 10px 0 0;
         font-weight: bold;
-        font-size: 28px;
+        font-size: 25px;
     }
     .info-historia-contenedor{
         display: flex;
@@ -726,16 +727,25 @@
                 border-radius: 5px 5px 0 0;
             }
             h3{
-                margin: 20px 0 50px 0;
+                margin: 20px 20px 5px 20px;
+                font-size: 20px;
+                text-align: left;
+            }
+            p{
+                font-size: 15px;
+                margin: 5px 20px 20px 20px;
+                text-align: left;
             }
             a{
                 text-decoration: none;
+                display: block;
                 color: rgba(255, 255, 255, 0.9) !important;
                 font-weight: bold;
+                font-size: 14px;
                 background: rgb(75, 169, 171);
-                padding: 15px 50px;
+                padding: 10px 20px;
                 border-radius: 5px;
-                margin: 20px;
+                margin: 10px 100px 50px 20px;
                 font-weight: bold;
                 &:hover{
                     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.242);
@@ -744,6 +754,7 @@
         }
     }
 }
+
 
 /**-----CONTACTO-----**/
 .hero-contacto{

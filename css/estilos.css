@@ -85,7 +85,7 @@ header {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.242); }
   .historia img, .ubicacion img {
     width: 40%;
-    border-radius: 5px; }
+    border-radius: 3px; }
 
 .articulos .band .item-1 .card, .articulos .band .item-2 .card, .articulos .band .item-3 .card, .articulos .band .item-4 .card, .articulos .band .item-5 .card, .articulos .band .item-6 .card, .articulos .band .item-7 .card {
   background: white;

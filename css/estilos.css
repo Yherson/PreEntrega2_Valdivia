@@ -37,7 +37,7 @@ header {
 /**-----HISTORIA-----**/
 /**-----HERO-HISTORIA-BOOTSTRAP-----**/
 .hero-historia div div div .carusel-contenido h5 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold; }
 
 .hero-historia div div div .carusel-contenido p {
@@ -65,7 +65,7 @@ header {
   .historia div, .ubicacion div {
     width: 50%; }
     .historia div h2, .ubicacion div h2 {
-      font-size: 32px;
+      font-size: 30px;
       color: #4ba9ab;
       margin-bottom: 20px;
       font-weight: bold; }
@@ -160,7 +160,7 @@ header {
     margin: 50px;
     padding-top: 40px;
     color: #4ba9ab;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: bold; }
   .articulos .band {
     width: 92%;
@@ -315,7 +315,7 @@ header {
       margin-bottom: 20px; }
       .historia-lugares .historia-lugares-contenedor h2 span {
         color: #999999;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500; }
     .historia-lugares .historia-lugares-contenedor p {
       font-size: 17px;

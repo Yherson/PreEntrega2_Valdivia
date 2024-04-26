@@ -574,6 +574,11 @@ footer {
         text-align: justify;
         font-size: 15px;
         margin: 0; }
+        footer .footer-top .footer-contacto .footer-contacto-datos p i {
+          font-size: 16px;
+          margin-right: 5px; }
+          footer .footer-top .footer-contacto .footer-contacto-datos p i:hover {
+            color: #4ba9ab; }
       footer .footer-top .footer-contacto .footer-contacto-redes h4 {
         text-align: justify;
         font-size: 16px;
@@ -581,7 +586,7 @@ footer {
         margin: 15px 0; }
       footer .footer-top .footer-contacto .footer-contacto-redes a i {
         font-size: 25px;
-        margin-right: 20px;
+        margin-right: 25px;
         color: white; }
         footer .footer-top .footer-contacto .footer-contacto-redes a i:hover {
           color: #4ba9ab; }

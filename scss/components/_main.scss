@@ -13,7 +13,7 @@
     color: white;
     text-align: center;
     p{
-        font-size: 20px;
+        font-size: nth($font-size, 5);
         margin: 30px 0 30px 0;
     }
     h1{
@@ -59,7 +59,7 @@
                 }
                 article{
                     h3{
-                        font-size: 24px;
+                        font-size: nth($font-size, 6);
                     }
                 }
             }
@@ -133,12 +133,12 @@
             margin-bottom: 50px;
             span{
                 color: #999999;
-                font-size: 20px;
+                font-size: nth($font-size, 5 );
                 font-weight: 500;
             }
         }
         p{
-            font-size: 17px;
+            font-size: nth($font-size, 4 );
             text-align: justify;
             margin-bottom: 10px;
         }
@@ -165,13 +165,13 @@
                 font-size: 19px;
             }
             p{
-                font-size: 17px;
+                font-size: nth($font-size, 4 );
                 text-align: center;
                 font-weight: bold;
                 margin: 5px;
                 padding: 0 10px 10px 10px;
                 span{
-                    font-size: 16px;
+                    font-size: nth($font-size, 3 );
                     font-weight: normal;
                 }
             }

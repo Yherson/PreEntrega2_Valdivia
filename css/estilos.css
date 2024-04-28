@@ -34,6 +34,11 @@ header {
       font-size: 16px;
       font-weight: 400; }
 
+/**-------HEADER-BOOTSTRAP-MEDIA-QUERYS-------**/
+@media screen and (max-width: 600px) {
+  header .menu-ajustes {
+    padding: 14px 5px; } }
+
 /**-----HISTORIA-----**/
 /**-----HERO-HISTORIA-BOOTSTRAP-----**/
 .hero-historia div div div .carusel-contenido h5 {
@@ -46,12 +51,8 @@ header {
 .hero-historia div .profuncidad-carusel {
   z-index: 0; }
 
-/**-----INDEX-----**/
-/**-------HEADER-BOOTSTRAP-MEDIA-QUERYS-------**/
-@media screen and (max-width: 600px) {
-  header .menu-ajustes {
-    padding: 14px 5px; } }
-
+/**-----VARIBLES-----**/
+/**-----LISTAS-----**/
 /**-----INDEX-----**/
 /**-----EXTENDS-----**/
 .historia, .ubicacion {

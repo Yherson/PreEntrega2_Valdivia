@@ -54,6 +54,14 @@ header{
         }
     }
 }
+/**-------HEADER-BOOTSTRAP-MEDIA-QUERYS-------**/
+@media screen and (max-width: 600px) {
+    header{
+        .menu-ajustes{
+            padding: 14px 5px;
+        }
+    }
+}
 
 /**-----HISTORIA-----**/
 /**-----HERO-HISTORIA-BOOTSTRAP-----**/
@@ -78,15 +86,21 @@ header{
     }
 }
 
-/**-----INDEX-----**/
-/**-------HEADER-BOOTSTRAP-MEDIA-QUERYS-------**/
-@media screen and (max-width: 600px) {
-    header{
-        .menu-ajustes{
-            padding: 14px 5px;
-        }
-    }
-}
+/**-----VARIBLES-----**/
+$color-primario: rgb(255, 255, 255);
+$color-secundario: rgb(0, 0, 0);
+$color-terciario: rgb(77, 160, 120);
+$color-cuaternario: rgb(75, 169, 171);
+$color-quintenario: #676767;
+
+/**-----LISTAS-----**/
+$font-size:
+14px,
+15px,
+16px,
+17px,
+20px,
+24px;
 
 /**-----INDEX-----**/
 /**-----EXTENDS-----**/
@@ -178,3 +192,4 @@ header{
         }
     }
 }
+

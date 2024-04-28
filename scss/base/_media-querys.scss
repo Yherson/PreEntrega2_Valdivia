@@ -353,10 +353,29 @@
         padding: 20px;
         .historia-historia-izquierda{
             width: 100%;
+            h2{
+                margin-bottom: 20px;
+                font-size: 22px;
+                span{
+                    font-size: 18px;
+                }
+            }
+            p{
+                font-size: 16px;
+            }
         }
         .historia-historia-derecha{
-            padding-top: 20px;
-            width: 100%;
+            div{
+                h3{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 16px;
+                    span{
+                        font-size: 15px;
+                    }
+                }
+            }
         }
     }
 

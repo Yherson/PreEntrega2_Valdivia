@@ -281,12 +281,14 @@ header {
         width: 100%; }
       .historias-historia-general .historias-historia .contenedor-historia div {
         padding: 32px; }
-        .historias-historia-general .historias-historia .contenedor-historia div h4 {
-          margin-bottom: 16px; }
+        .historias-historia-general .historias-historia .contenedor-historia div h3 {
+          margin-bottom: 16px;
+          font-size: 20px; }
         .historias-historia-general .historias-historia .contenedor-historia div p {
           margin-bottom: 30px; }
         .historias-historia-general .historias-historia .contenedor-historia div a {
           text-decoration: none;
+          font-size: 14px;
           outline: none;
           color: #4da078;
           text-transform: uppercase;
@@ -835,9 +837,19 @@ footer {
     padding: 20px; }
     .historia-historia .historia-historia-izquierda {
       width: 100%; }
-    .historia-historia .historia-historia-derecha {
-      padding-top: 20px;
-      width: 100%; }
+      .historia-historia .historia-historia-izquierda h2 {
+        margin-bottom: 20px;
+        font-size: 22px; }
+        .historia-historia .historia-historia-izquierda h2 span {
+          font-size: 18px; }
+      .historia-historia .historia-historia-izquierda p {
+        font-size: 16px; }
+    .historia-historia .historia-historia-derecha div h3 {
+      font-size: 18px; }
+    .historia-historia .historia-historia-derecha div p {
+      font-size: 16px; }
+      .historia-historia .historia-historia-derecha div p span {
+        font-size: 15px; }
   /**-----HUAYHUASH-----**/
   /**-----CARHUCOCHA----**/
   /**-----MITUCOCHA-----**/

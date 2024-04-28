@@ -446,7 +446,7 @@ header {
       display: flex;
       flex-direction: column;
       gap: 50px; }
-      .contacto-contacto .contacto-container .contacto-box-info h1 {
+      .contacto-contacto .contacto-container .contacto-box-info h2 {
         text-align: left;
         color: #4ba9ab;
         font-weight: bold;
@@ -866,8 +866,16 @@ footer {
     gap: 20px; }
     .contacto-contacto .contacto-container .contacto-box-info {
       gap: 15px; }
-      .contacto-contacto .contacto-container .contacto-box-info h1 {
-        font-size: 1.5rem; } }
+      .contacto-contacto .contacto-container .contacto-box-info h2 {
+        font-size: 20px;
+        font-weight: bold; }
+      .contacto-contacto .contacto-container .contacto-box-info .contacto-datos {
+        margin-bottom: 20px; }
+        .contacto-contacto .contacto-container .contacto-box-info .contacto-datos p {
+          font-size: 16px;
+          margin: 0; }
+          .contacto-contacto .contacto-container .contacto-box-info .contacto-datos p i {
+            font-size: 20px; } }
 
 @media screen and (max-width: 500px) {
   /**-----INDEX-----**/

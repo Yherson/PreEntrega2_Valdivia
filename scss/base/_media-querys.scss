@@ -404,8 +404,19 @@
             gap: 20px;
             .contacto-box-info{
                 gap: 15px;
-                h1{
-                    font-size: 1.5rem;
+                h2{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .contacto-datos{
+                    margin-bottom: 20px;
+                    p{
+                        font-size: 16px;
+                        margin: 0;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
                 }
             }
         }

@@ -242,6 +242,61 @@
     }
 }
 
+.mitos-leyendas{
+    .mitos-leyendas-texts{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        h3{
+            font-size: 22px;
+            font-weight: bold;
+            color: rgb(75, 169, 171);
+            margin: 30px 20px 10px 20px;
+            text-align: center;
+        }
+        h4{
+            font-size: 17px;
+            text-align: justify;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        div{
+            width: 80%;
+            height: auto;
+            margin: 40px auto;
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            p{
+                font-size: 15px;
+                font-style: italic;
+                margin: 15px 30% 30px 0;
+                color: #909090;
+            }
+        }
+        p{
+            font-size: 17px;
+            text-align: justify;
+            margin: 20px 20%;
+            color: #676767;
+        }
+        h5{
+            font-size: 17px;
+            text-align: justify;
+            margin: 20px 20%;
+            color: #676767;
+            margin-top: 40px;
+            margin-bottom: 50px;
+            font-style: italic;
+            font-weight: normal;
+        }
+    }
+}
+
 /**-----HUAYHUASH-----**/
 /**-----CARHUCOCHA----**/
 /**-----MITUCOCHA-----**/

@@ -297,6 +297,51 @@ header {
           .historias-historia-general .historias-historia .contenedor-historia div a:hover {
             color: #57c891; }
 
+.mitos-leyendas .mitos-leyendas-texts {
+  background-color: white;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  .mitos-leyendas .mitos-leyendas-texts h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4ba9ab;
+    margin: 30px 20px 10px 20px;
+    text-align: center; }
+  .mitos-leyendas .mitos-leyendas-texts h4 {
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold; }
+  .mitos-leyendas .mitos-leyendas-texts div {
+    width: 80%;
+    height: auto;
+    margin: 40px auto; }
+    .mitos-leyendas .mitos-leyendas-texts div img {
+      display: block;
+      width: 100%;
+      height: auto; }
+    .mitos-leyendas .mitos-leyendas-texts div p {
+      font-size: 15px;
+      font-style: italic;
+      margin: 15px 30% 30px 0;
+      color: #909090; }
+  .mitos-leyendas .mitos-leyendas-texts p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px 20%;
+    color: #676767; }
+  .mitos-leyendas .mitos-leyendas-texts h5 {
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px 20%;
+    color: #676767;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-weight: normal; }
+
 /**-----HUAYHUASH-----**/
 /**-----CARHUCOCHA----**/
 /**-----MITUCOCHA-----**/

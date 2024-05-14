@@ -787,7 +787,18 @@ footer {
     .articulos .band .item-6 {
       grid-column: 3 / span 2; }
     .articulos .band .item-7 {
-      grid-column: 1 / span 4; } }
+      grid-column: 1 / span 4; }
+  /**-----HISTORIA-----**/
+  .mitos-leyendas .mitos-leyendas-texts h4 {
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  .mitos-leyendas .mitos-leyendas-texts div p {
+    margin: 15px 20% 30px 0; }
+  .mitos-leyendas .mitos-leyendas-texts p {
+    margin: 20px 10%; }
+  .mitos-leyendas .mitos-leyendas-texts h5 {
+    margin: 20px 10%; } }
 
 @media screen and (max-width: 700px) {
   /**-----HUAYHUASH-----**/
@@ -984,6 +995,24 @@ footer {
         font-size: 18px; }
       .articulos .band .item-7 .card article span {
         font-size: 11px; }
+  /**-----HISTORIA-----**/
+  .mitos-leyendas .mitos-leyendas-texts h3 {
+    font-size: 20px; }
+  .mitos-leyendas .mitos-leyendas-texts h4 {
+    font-size: 16px; }
+  .mitos-leyendas .mitos-leyendas-texts div {
+    width: 90%;
+    height: auto;
+    margin: 40px auto; }
+    .mitos-leyendas .mitos-leyendas-texts div p {
+      font-size: 14px;
+      margin: 15px 0 30px 0; }
+  .mitos-leyendas .mitos-leyendas-texts p {
+    font-size: 16px;
+    margin: 20px 5%; }
+  .mitos-leyendas .mitos-leyendas-texts h5 {
+    font-size: 16px;
+    margin: 20px 5%; }
   /**-----CONTACTO-----**/
   .hero-contacto {
     display: none; }
